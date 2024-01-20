@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --blue: #14213d;
+    --orange: #fca311;
+    --white: #e5e5e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+header h1 {
+    height: 90px;
+    background-color: var(--orange);
+    margin-bottom: 30px;
+}
+
+.logo {
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center>h2 {
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.player-options,
+.enemy-options {
+    width: 50%;
+    text-align: center;
+}
+
+.player-options,
+.enemy-options h3 {
+    font-size: 30px;
+    color: #fca311;
+}
+
+.player-options img,
+.enemy-options img {
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
